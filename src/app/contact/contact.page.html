@@ -1,23 +1,36 @@
+<!--conatct.page.html file code for left side menu-->
 <ion-header>
-  <ion-toolbar>
-    <ion-title>
-      Contact
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
+    <ion-toolbar color="dark">
+      <ion-buttons slot="start">
+        <ion-menu-button></ion-menu-button>
+      </ion-buttons>
+      <ion-title color="secondary">Contact Info</ion-title>
+    </ion-toolbar>
+  </ion-header>
 
-<ion-content>
+<ion-content color="dark" padding>
   <ion-list>
-    <ion-list-header>
-      <ion-label>
-        Follow us on Twitter
+    <ion-list-header color="secondary">
+      <ion-label color="dark label">
+        Email
       </ion-label>
     </ion-list-header>
-    <ion-item>
-      <ion-label>
-        <ion-icon name="logo-ionic" slot="start"></ion-icon>
-        @ionicframework
+    <ion-item color="dark">
+      <ion-label color="secondary label">
+        <ion-icon name="mail" slot="start" > </ion-icon>
+        e.petroczki@gmail.com
       </ion-label>
     </ion-item>
+    <ion-list-header color="secondary">
+        <ion-label color="dark label">
+          Mobile
+        </ion-label>
+      </ion-list-header>
+      <ion-item color="dark">
+        <ion-label color="secondary label">
+          <ion-icon name="call" slot="start" > </ion-icon>
+          +358 44 237 1492
+        </ion-label>
+      </ion-item>
   </ion-list>
 </ion-content>
