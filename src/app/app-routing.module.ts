@@ -7,7 +7,7 @@ const routes: Routes = [
   { path: 'pWorks', loadChildren: './p-works/p-works.module#PWorksPageModule' },
   { path: 'hobbies', loadChildren: './hobbies/hobbies.module#HobbiesPageModule' },
   { path: 'contact', loadChildren: './contact/contact.module#ContactPageModule' },
-  { path: 'about', loadChildren: './about/about.module#AboutPageModule' }
+  { path: 'about', loadChildren: './about/about.module#AboutPageModule' },
 ];
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
