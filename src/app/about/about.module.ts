@@ -10,8 +10,10 @@ import { AboutPage } from './about.page';
     IonicModule,
     CommonModule,
     FormsModule,
-    RouterModule.forChild([{ path: '', component: AboutPage }])
+    RouterModule.forChild([{ path: '', component: AboutPage }]),
   ],
-  declarations: [AboutPage]
+  declarations: [
+    AboutPage
+  ],
 })
 export class AboutPageModule {}

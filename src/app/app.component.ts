@@ -16,8 +16,18 @@ export class AppComponent {
       icon: 'home'
     },
     {
-      title: 'Curriculum Vitae',
+      title: 'Basic Info',
       url: '/cVitae',
+      icon: 'list-box'
+    },
+    {
+      title: 'Tech Skills',
+      url: '/techskills',
+      icon: 'laptop'
+    },
+    {
+      title: 'Soft Skills',
+      url: '/softskills',
       icon: 'briefcase'
     },
     {

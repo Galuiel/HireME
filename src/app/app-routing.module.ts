@@ -8,6 +8,8 @@ const routes: Routes = [
   { path: 'hobbies', loadChildren: './hobbies/hobbies.module#HobbiesPageModule' },
   { path: 'contact', loadChildren: './contact/contact.module#ContactPageModule' },
   { path: 'about', loadChildren: './about/about.module#AboutPageModule' },
+  { path: 'techskills', loadChildren: './techskills/techskills.module#TechskillsPageModule' },
+  { path: 'softskills', loadChildren: './softskills/softskills.module#SoftskillsPageModule' },
 ];
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
